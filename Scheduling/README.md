@@ -1,4 +1,5 @@
 5% - Scheduling
+```
 • Use label selectors to schedule Pods.
 • Understand the role of DaemonSets.
 • Understand how resource limits can affect Pod scheduling.
@@ -6,3 +7,4 @@
 • Manually schedule a pod without a scheduler.
 • Display scheduler events.
 • Know how to configure the Kubernetes scheduler.
+```
