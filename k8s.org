@@ -18,8 +18,9 @@
 * Blog: Preparing k8s CKA
 https://www.cncf.io/certification/expert/cka/
 * # --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO Scheduling: Use label selectors to schedule Pods.
-
+* HALF Scheduling: Use label selectors to schedule Pods.
+* HALF Difference in between selectors and labels
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Scheduling: Understand the role of DaemonSets.
 * TODO Scheduling: Understand how to run multiple schedulers and how to configure Pods to use them.
 * TODO Scheduling: Display scheduler events
