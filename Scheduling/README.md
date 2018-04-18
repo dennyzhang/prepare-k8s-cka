@@ -57,3 +57,5 @@ nginx-deployment-6d8f46cfb7-zhs96   1/1       Running   0          22s
 TODO: What's the difference in between the concepts of labels and selectors?
 
 ## Understand the role of DaemonSets
+
+# Practice
