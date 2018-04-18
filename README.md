@@ -11,24 +11,9 @@ See More in: [denny-challenges](https://github.com/topics/denny-challenges)
 
 <a href="https://github.com/DennyZhang?tab=followers"><img align="right" width="200" height="183" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/fork_github.png" /></a>
 
-Table of Contents
-=================
-Challenge Your Python Programming Skills
+TODO
 
-   * [Scenarios](#scenarios)
-      * [Scenario-101: String and array manipulation](#scenario-101-string-and-array-manipulation)
-      * [Scenario-102: Type conversions](#scenario-102-type-conversions)
-
-<a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
-
-# Scenarios
-## Scenario-101: String and array manipulation
-- Objective: Get familiar with fundamental operations
-- Main Tech: string, list
-
-## Scenario-102: Type conversions
-- Objective: Frequent used type conversions
-- Main Tech: string, int
+Link: https://www.cncf.io/certification/expert/cka/
 
 # Contributors
 Below are folks who have contributed via GitHub!

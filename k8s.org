@@ -1,0 +1,25 @@
+-*- mode:org; fill-column:70; coding:utf-8; -*-
+* org-mode configuration
+#+STARTUP: overview
+#+STARTUP: customtime
+#+STARTUP: noalign
+#+STARTUP: logdone
+#+STARTUP: hidestars
+#+TAGS: ARCHIVE(a) WEBPAGE(w) LIFE(l) IMPORTANT(i) Habit(h) Communication(c) Recite(r) noexport(n) Shopping(s) Difficult(d) Target(t) Misc(m) BLOG(b) Family(f)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+#+DRAWERS: HIDDEN CODE CONF EMAIL WEBPAGE SNIP
+#+PRIORITIES: A D C
+#+ARCHIVE: %s_done::** Finished Tasks
+#+AUTHOR: dennyzhang.com (denny@dennyzhang.com)
+#+OPTIONS: toc:3
+#+OPTIONS: \n:t ^:nil LaTeX:nil @:nil
+#+OPTIONS: creator:nil
+#+OPTIONS: timestamp:t
+* Blog: Preparing k8s CKA
+https://www.cncf.io/certification/expert/cka/
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Scheduling: Use label selectors to schedule Pods.
+* TODO Scheduling: Understand the role of DaemonSets.
+* TODO Scheduling: Understand how to run multiple schedulers and how to configure Pods to use them.
+* TODO Scheduling: Display scheduler events
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
