@@ -11,7 +11,7 @@ See More in: [denny-challenges](https://github.com/topics/denny-challenges)
 
 Table of Contents
 =================
-[CKA Curriculum V 1.9.0](pdf/certified_kubernetes_administrator_exam_v1.9.0.pdf):
+[CKA Curriculum V 1.9.0](pdf/certified_kubernetes_administrator_exam_v1.9.0.pdf)
 - 5% - [Scheduling](Scheduling)
 - 5% - [Logging/Monitoring](Logging_Monitoring)
 - 8% - [Application Lifecycle Management](Application_Lifecycle_Management)
@@ -23,11 +23,12 @@ Table of Contents
 - 11% - [Networking](Networking)
 - 12% - [Installation, Configuration & Validation](Installation_Configuration_Validation)
 
-Link: https://www.cncf.io/certification/expert/cka/
-
 # Contributors
 Below are folks who have contributed via GitHub!
 - TODO:
+
+# More Resources
+- https://www.cncf.io/certification/expert/cka/
 
 # License
 - Code is licensed under [MIT License](https://www.dennyzhang.com/wp-content/mit_license.txt).
