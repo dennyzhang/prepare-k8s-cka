@@ -80,3 +80,4 @@ https://www.cncf.io/certification/expert/cka/
 * TODO Lifecycle: Know various ways to configure applications.
 * TODO Lifecycle: Know how to scale applications.
 * TODO Lifecycle: Understand the primitives necessary to create a self-healing application.
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
