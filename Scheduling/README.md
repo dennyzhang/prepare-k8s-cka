@@ -1,3 +1,12 @@
+Table of Contents
+=================
+
+   * [Requirement](#requirement)
+   * [Practice](#practice)
+      * [Use label selectors to schedule Pods.](#use-label-selectors-to-schedule-pods)
+
+# Requirement
+
 5% - Scheduling
 ```
 • Use label selectors to schedule Pods.
@@ -8,3 +17,11 @@
 • Display scheduler events.
 • Know how to configure the Kubernetes scheduler.
 ```
+
+# Practice
+
+Here we assume you already have a running k8s cluster.
+
+(If you haven't, you can check [challenges-kubernetes](https://github.com/DennyZhang/challenges-kubernetes/tree/master/Scenario-101). And finish Scenario-101)
+
+## Use label selectors to schedule Pods.
