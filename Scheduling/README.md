@@ -22,6 +22,6 @@ Table of Contents
 
 Here we assume you already have a running k8s cluster.
 
-(If you haven't, you can check [challenges-kubernetes](https://github.com/DennyZhang/challenges-kubernetes/tree/master/Scenario-101). And finish Scenario-101)
+(If you haven't, you can check [challenges-kubernetes](https://github.com/DennyZhang/challenges-kubernetes) repo. And finish [Scenario-101](https://github.com/DennyZhang/challenges-kubernetes/tree/master/Scenario-101))
 
 ## Use label selectors to schedule Pods.
