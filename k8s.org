@@ -17,9 +17,66 @@
 #+OPTIONS: timestamp:t
 * Blog: Preparing k8s CKA
 https://www.cncf.io/certification/expert/cka/
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Scheduling: Use label selectors to schedule Pods.
 * TODO Scheduling: Understand the role of DaemonSets.
 * TODO Scheduling: Understand how to run multiple schedulers and how to configure Pods to use them.
 * TODO Scheduling: Display scheduler events
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Security: Know how to configure authentication and authorization.
+* TODO Security: Understand Kubernetes security primitives.
+* TODO Security: Know to configure network policies.
+* TODO Security: Create and manage TLS certificates for cluster components.
+* TODO Security: Work with images securely.
+* TODO Security: Define security contexts.
+* TODO Security: Secure persistent key value store.
+* TODO Security: Work with role-based access control.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Networking: Understand the networking configuration on the cluster nodes.
+* TODO Networking: Understand Pod networking concepts.
+* TODO Networking: Understand service networking.
+* TODO Networking: Deploy and configure network load balancer.
+* TODO Networking: Know how to use Ingress rules.
+* TODO Networking: Know how to configure and use the cluster DNS.
+* TODO Networking: Understand CNI.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Core_Concepts: Understand the Kubernetes API primitives.
+* TODO Core_Concepts: Understand the Kubernetes cluster architecture.
+* TODO Core_Concepts: Understand Services and other network primitives.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Configuration: Design a Kubernetes cluster.
+* TODO Configuration: Install Kubernetes masters and nodes, including the use of TLS bootstrapping.
+* TODO Configuration: Configure secure cluster communications.
+* TODO Configuration: Configure a Highly-Available Kubernetes cluster.
+* TODO Configuration: Know where to get the Kubernetes release binaries.
+* TODO Configuration: Provision underlying infrastructure to deploy a Kubernetes cluster.
+* TODO Configuration: Choose a network solution.
+* TODO Configuration: Choose your Kubernetes infrastructure configuration.
+* TODO Configuration: Run end-to-end tests on your cluster.
+* TODO Configuration: Analyse end-to-end tests results.
+* TODO Configuration: Run Node end-to-end tests.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Troubleshooting: Troubleshoot application failure.
+* TODO Troubleshooting: Troubleshoot control plane failure.
+* TODO Troubleshooting: Troubleshoot worker node failure.
+* TODO Troubleshooting: Troubleshoot networking.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Storage: Understand persistent volumes and know how to create them.
+* TODO Storage: Understand access modes for volumes.
+* TODO Storage: Understand persistent volume claims primitive.
+* TODO Storage: Understand Kubernetes storage objects.
+* TODO Storage: Know how to configure applications with persistent storage.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO logging/Monitoring: Understand how to monitor all cluster components.
+* TODO logging/Monitoring: Understand how to monitor applications.
+* TODO logging/Monitoring: Manage cluster component logs. 
+* TODO logging/Monitoring: Manage application logs.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Maintenance: Understand Kubernetes cluster upgrade process.
+* TODO Maintenance: Facilitate operating system upgrades.
+* TODO Maintenance: Implement backup and restore methodologies.
+* # --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Lifecycle: Understand Deployments and how to perform rolling updates and rollbacks.
+* TODO Lifecycle: Know various ways to configure applications.
+* TODO Lifecycle: Know how to scale applications.
+* TODO Lifecycle: Understand the primitives necessary to create a self-healing application.
