@@ -4,6 +4,7 @@ Table of Contents
    * [Requirement](#requirement)
    * [Practice](#practice)
       * [Use label selectors to schedule Pods.](#use-label-selectors-to-schedule-pods)
+      * [Understand the role of DaemonSets](#understand-the-role-of-daemonsets)
 
 # Requirement
 
@@ -22,7 +23,7 @@ Table of Contents
 
 Here we assume you already have a running k8s cluster.
 
-(If you haven't, you can check [challenges-kubernetes](https://github.com/DennyZhang/challenges-kubernetes) repo. And finish [Scenario-101](https://github.com/DennyZhang/challenges-kubernetes/tree/master/Scenario-101))
+(If you don't have, you can check [challenges-kubernetes](https://github.com/DennyZhang/challenges-kubernetes) repo. And finish [Scenario-101](https://github.com/DennyZhang/challenges-kubernetes/tree/master/Scenario-101))
 
 ## Use label selectors to schedule Pods.
 
@@ -52,3 +53,7 @@ nginx-deployment-6d8f46cfb7-csjkc   1/1       Running   7          9m
 nginx-deployment-6d8f46cfb7-pfjt4   1/1       Running   7          9m
 nginx-deployment-6d8f46cfb7-zhs96   1/1       Running   0          22s
 ```
+
+TODO: What's the difference in between the concepts of labels and selectors?
+
+## Understand the role of DaemonSets
