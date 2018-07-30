@@ -89,7 +89,7 @@ Also, if you try to schedule more pods, you will quickly run into some inotify l
 ** TODO Networking: Know how to use Ingress rules.
 ** TODO Networking: Know how to configure and use the cluster DNS.
 ** TODO Networking: Understand CNI.
-* TODO Core_Concepts
+* TODO Core_Concepts                                               :noexport:
 ** TODO Core_Concepts: Understand the Kubernetes API primitives.
 ** TODO Core_Concepts: Understand the Kubernetes cluster architecture.
 ** TODO Core_Concepts: Understand Services and other network primitives.
