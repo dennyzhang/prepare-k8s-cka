@@ -1,25 +1,72 @@
--*- mode:org; fill-column:70; coding:utf-8; -*-
-* org-mode configuration
-#+STARTUP: overview
-#+STARTUP: customtime
-#+STARTUP: noalign
-#+STARTUP: logdone
-#+STARTUP: hidestars
-#+TAGS: ARCHIVE(a) WEBPAGE(w) LIFE(l) IMPORTANT(i) Habit(h) Communication(c) Recite(r) noexport(n) Shopping(s) Difficult(d) Target(t) Misc(m) BLOG(b) Family(f)
-#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-#+DRAWERS: HIDDEN CODE CONF EMAIL WEBPAGE SNIP
+* org-mode configuration                                           :noexport:
+#+STARTUP: overview customtime noalign logdone hidestars
+#+TITLE:  Preparing k8s CKA
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+AUTHOR: Denny Zhang
+#+EMAIL:  denny@dennyzhang.com
+#+TAGS: noexport(n)
 #+PRIORITIES: A D C
-#+ARCHIVE: %s_done::** Finished Tasks
-#+AUTHOR: dennyzhang.com (denny@dennyzhang.com)
-#+OPTIONS: toc:3
-#+OPTIONS: \n:t ^:nil LaTeX:nil @:nil
-#+OPTIONS: creator:nil
-#+OPTIONS: timestamp:t
-* Blog: Preparing k8s CKA
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_EXCLUDE_TAGS: exclude noexport
+#+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
+#+LINK_UP:   
+#+LINK_HOME: 
+* Summary
+#+BEGIN_HTML
+<a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a>
+<a href="https://github.com/DennyZhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a>
+<a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="http://slack.dennyzhang.com/badge.svg" alt="slack"/></a>
+<a href="https://github.com/DennyZhang"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+
+<br/><br/>
+
+<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+#+END_HTML
+* CheatSheet
+File me [[https://github.com/DennyZhang/prepare-k8s-cka/issues][Issues]] or star [[https://github.com/DennyZhang/prepare-k8s-cka][this repo]].
+
+See more Kubernetes from Denny: [[https://github.com/topics/denny-kubernetes][#denny-kubernetes]]
+
+** Summary
+[[pdf/certified_kubernetes_administrator_exam_v1.9.0.pdf][CKA Curriculum V 1.9.0]]:
+- 5% - [Scheduling](Scheduling)
+- 5% - [Logging/Monitoring](Logging_Monitoring)
+- 8% - [Application Lifecycle Management](Application_Lifecycle_Management)
+- 11% - [Cluster Maintenance](Cluster_Maintenance)
+- 12% - [Security](Security)
+- 7% - [Storage](Storage)
+- 10% - [Troubleshooting](Troubleshooting)
+- 19% - [Core Concepts](Core_Concepts)
+- 11% - [Networking](Networking)
+- 12% - [Installation, Configuration & Validation](Installation_Configuration_Validation)
+
+* More Resources
+License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+
 https://www.cncf.io/certification/expert/cka/
+
+#+BEGIN_HTML
+<a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
+
+<a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
+#+END_HTML
 * # --8<-------------------------- separator ------------------------>8-- :noexport:
-* HALF Scheduling: Use label selectors to schedule Pods.
-* HALF Difference in between selectors and labels
+* Kubernetes Performance
+** Maximum Pods Per node Assumption: 110
+https://medium.com/@brendanrius/scaling-kubernetes-for-25m-users-a7937e3536a0?mkt_tok=eyJpIjoiWWpRMU5UbGtZekptTVRWaCIsInQiOiI4MFZWUEpLa1wvZE0xUkE2eWZNOVExUGNXU3ZOcXRNeDk5OGprbkNrSXdtQkFxUGR1WTU3dEJuWEJOdnpXcTk4a08zOUlrdlZMXC9LZklGK1lPeTc5N1FsVW1WSUJkT09hS1Ard0ptbnp1RDRXNkphRFp4NXhsUkwyWWwrMnZBMFFNIn0%3D
+
+Right now, Kubernetes will by default schedule at most 110 pods per node. 
+
+#+BEGIN_EXAMPLE
+Right now, Kubernetes will by default schedule at most 110 pods per node. This is something you can configure if you have a direct access to your kubelet configuration. See documentation here (search for --max-pods).
+
+Also, if you try to schedule more pods, you will quickly run into some inotify limits (namely max_user_instances and max_user_watches). 
+#+End_example
+* TODO [#A] Scheduling: isolate critical pods using node affinities
+https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
+* HALF Scheduling: Use label selectors to schedule Pods
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Scheduling: Understand the role of DaemonSets.
 * TODO Scheduling: Understand how to run multiple schedulers and how to configure Pods to use them.
@@ -82,4 +129,3 @@ https://www.cncf.io/certification/expert/cka/
 * TODO Lifecycle: Know various ways to configure applications.
 * TODO Lifecycle: Know how to scale applications.
 * TODO Lifecycle: Understand the primitives necessary to create a self-healing application.
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
