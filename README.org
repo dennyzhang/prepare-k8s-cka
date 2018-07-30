@@ -9,7 +9,7 @@
 #+PRIORITIES: A D C
 #+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+EXPORT_EXCLUDE_TAGS: exclude noexport
+#+EXPORT_EXCLUDE_TAGS: exclude noexport TODO
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+LINK_UP:   
 #+LINK_HOME: 
@@ -53,7 +53,7 @@ https://www.cncf.io/certification/expert/cka/
 <a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
 #+END_HTML
 * # --8<-------------------------- separator ------------------------>8-- :noexport:
-* Kubernetes Performance
+* Kubernetes Performance                                           :noexport:
 ** Maximum Pods Per node Assumption: 110
 https://medium.com/@brendanrius/scaling-kubernetes-for-25m-users-a7937e3536a0?mkt_tok=eyJpIjoiWWpRMU5UbGtZekptTVRWaCIsInQiOiI4MFZWUEpLa1wvZE0xUkE2eWZNOVExUGNXU3ZOcXRNeDk5OGprbkNrSXdtQkFxUGR1WTU3dEJuWEJOdnpXcTk4a08zOUlrdlZMXC9LZklGK1lPeTc5N1FsVW1WSUJkT09hS1Ard0ptbnp1RDRXNkphRFp4NXhsUkwyWWwrMnZBMFFNIn0%3D
 
