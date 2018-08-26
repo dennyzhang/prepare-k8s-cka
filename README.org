@@ -1,6 +1,50 @@
+* Prepare K8S CKA Exam                                                 :Quiz:
+:PROPERTIES:
+:type:     quiz
+:END:
+Blog URL: https://kubernetes.dennyzhang.com/prepare-k8s-cka, Category: [[https://kubernetes.dennyzhang.com/category/quiz][quiz]]
+
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/prepare-k8s-cka"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+
+<div id="the whole thing" style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
+</div>
+
+<br/><br/>
+<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+#+END_HTML
+
+File me [[https://github.com/DennyZhang/prepare-k8s-cka/issues][Issues]] or star [[https://github.com/DennyZhang/prepare-k8s-cka][this repo]].
+
+See more Kubernetes from Denny: [[https://github.com/topics/denny-kubernetes][#denny-kubernetes]]
+
+** Summary
+[[https://github.com/dennyzhang/prepare-k8s-cka/tree/master/pdf/certified_kubernetes_administrator_exam_v1.9.0.pdf][CKA Curriculum V 1.9.0]]
+- 5% - [Scheduling](Scheduling)
+- 5% - [Logging/Monitoring](Logging_Monitoring)
+- 8% - [Application Lifecycle Management](Application_Lifecycle_Management)
+- 11% - [Cluster Maintenance](Cluster_Maintenance)
+- 12% - [Security](Security)
+- 7% - [Storage](Storage)
+- 10% - [Troubleshooting](Troubleshooting)
+- 19% - [Core Concepts](Core_Concepts)
+- 11% - [Networking](Networking)
+- 12% - [Installation, Configuration & Validation](Installation_Configuration_Validation)
+* More Resources
+License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+
+https://www.cncf.io/certification/expert/cka/
+
+#+BEGIN_HTML
+<a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
+
+<a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
+#+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone hidestars
-#+TITLE:  Preparing k8s CKA
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+AUTHOR: Denny Zhang
@@ -13,45 +57,6 @@
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+LINK_UP:   
 #+LINK_HOME: 
-* Summary
-#+BEGIN_HTML
-<a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a>
-<a href="https://github.com/DennyZhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a>
-<a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="http://slack.dennyzhang.com/badge.svg" alt="slack"/></a>
-<a href="https://github.com/DennyZhang"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
-
-<br/><br/>
-
-<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
-#+END_HTML
-* CheatSheet
-File me [[https://github.com/DennyZhang/prepare-k8s-cka/issues][Issues]] or star [[https://github.com/DennyZhang/prepare-k8s-cka][this repo]].
-
-See more Kubernetes from Denny: [[https://github.com/topics/denny-kubernetes][#denny-kubernetes]]
-
-** Summary
-[[pdf/certified_kubernetes_administrator_exam_v1.9.0.pdf][CKA Curriculum V 1.9.0]]:
-- 5% - [Scheduling](Scheduling)
-- 5% - [Logging/Monitoring](Logging_Monitoring)
-- 8% - [Application Lifecycle Management](Application_Lifecycle_Management)
-- 11% - [Cluster Maintenance](Cluster_Maintenance)
-- 12% - [Security](Security)
-- 7% - [Storage](Storage)
-- 10% - [Troubleshooting](Troubleshooting)
-- 19% - [Core Concepts](Core_Concepts)
-- 11% - [Networking](Networking)
-- 12% - [Installation, Configuration & Validation](Installation_Configuration_Validation)
-
-* More Resources
-License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
-
-https://www.cncf.io/certification/expert/cka/
-
-#+BEGIN_HTML
-<a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
-
-<a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
-#+END_HTML
 * # --8<-------------------------- separator ------------------------>8-- :noexport:
 * Kubernetes Performance                                           :noexport:
 ** Maximum Pods Per node Assumption: 110
