@@ -34,6 +34,14 @@ See more Kubernetes from Denny: [[https://github.com/topics/denny-kubernetes][#d
 - 11% - [Networking](Networking)
 - 12% - [Installation, Configuration & Validation](Installation_Configuration_Validation)
 * More Resources
+https://github.com/walidshaari/Kubernetes-Certified-Administrator
+
+https://github.com/kelseyhightower/kubernetes-the-hard-way
+
+https://docs.google.com/document/d/1N4fusJG9drQx7J3HIfNsy59dVJh9kwVQ6OtDDVLc36Q/edit
+
+https://docs.google.com/document/d/1AMVwvVabPoYt-o1k8Uo7UlmlfsjQKVHDhDyKP3QqbOM/edit
+
 License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
 
 https://www.cncf.io/certification/expert/cka/
